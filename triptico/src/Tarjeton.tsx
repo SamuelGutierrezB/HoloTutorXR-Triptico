@@ -1,10 +1,16 @@
+import qrDocumentacion from "./assets/qr-documentacion.png";
+import qrItchio from "./assets/qr-itchio.png";
+import qrSidequest from "./assets/qrsidequest.png";
+
 function QrCard({
   title,
   description,
+  qrSrc,
   size = "small",
 }: {
   title: string;
   description: string;
+  qrSrc: string;
   size?: "small" | "large";
 }) {
   const isLarge = size === "large";
@@ -27,7 +33,7 @@ function QrCard({
       </p>
       <div className="inline-flex rounded-2xl border-3 border-[#FF4C95] bg-white p-2 shadow-lg">
         <img
-          src="/qr.png"
+          src={qrSrc}
           alt={`QR de ${title} de HoloTutorXR`}
           className={`${isLarge ? "h-[2.95in] w-[2.95in]" : "h-[2.15in] w-[2.15in]"} object-contain`}
         />
@@ -45,12 +51,21 @@ const QrSheet = () => (
       <QrCard
         title="Documentacion"
         description="Manual, arquitectura y validacion"
+        qrSrc={qrDocumentacion}
         size="large"
       />
 
       <div className="grid grid-cols-2 gap-3 flex-1 min-h-0">
-        <QrCard title="SideQuest" description="Publicacion oficial de la app" />
-        <QrCard title="Itch.io" description="Descarga y demo del proyecto" />
+        <QrCard
+          title="SideQuest"
+          description="Publicacion oficial de la app"
+          qrSrc={qrSidequest}
+        />
+        <QrCard
+          title="Itch.io"
+          description="Descarga y demo del proyecto"
+          qrSrc={qrItchio}
+        />
       </div>
     </div>
 
