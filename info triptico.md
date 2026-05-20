@@ -14,7 +14,7 @@
 - **Encabezado:** Coloca la imagen del logo (`/logo.png`) centrada. **Debajo, pon en negritas: "Nombre técnico: Aprendizaje Inmersivo con IA en Realidad extendida"**^^.
 - **Gráfico Principal:** Coloca la imagen del tutor sin fondo (`/tutor.png`) destacada en el centro.
 - **El Problema:** La enseñanza de ciencias experimentales enfrenta barreras por horarios de laboratorio, costos de reactivos y riesgos físicos^^^^^^^^. **Los alumnos interactúan muy poco con instrumentos de precisión**^^.
-- **La Solución:** HoloTutorXR simula procedimientos guiados, seguros y repetibles, basados en el aprendizaje experiencial de Kolb y el constructivismo, reduciendo la carga cognitiva^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^.
+- **La Solución:** HoloTutorXR simula procedimientos guiados, seguros y repetibles, basados en el aprendizaje experiencial de y el constructivismo, reduciendo la carga cognitiva^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^.
 - **Autores (Pie de página frontal, alineado abajo):**
   - Grupo: 8P
   - **Daniel Osmar Garcia Cataño - 20310363 **^^

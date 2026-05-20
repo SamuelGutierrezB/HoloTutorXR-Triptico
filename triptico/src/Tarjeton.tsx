@@ -226,7 +226,7 @@ const CaraTrasera = () => (
     <div className="text-center mt-1">
       <p className="text-[10.5px] text-gray-400 tracking-wide">
         CETI · Centro de Enseñanza Técnica Industrial · Plantel Colomos ·
-        Ingeniería en Sistemas Computacionales · 2026
+        Ingeniería en Desarrollo de Software · 2026
       </p>
     </div>
   </div>
@@ -300,9 +300,8 @@ const CaraFrontal = () => (
                    p-2.5 text-[11.5px] text-gray-600 leading-snug"
       >
         <strong>HoloTutorXR</strong> simula procedimientos guiados, seguros y
-        repetibles, basados en el{" "}
-        <strong>aprendizaje experiencial de Kolb</strong> y el{" "}
-        <strong>constructivismo</strong>, reduciendo la carga cognitiva.
+        repetibles, basados en el <strong>aprendizaje experiencial </strong> y
+        el <strong>constructivismo</strong>, reduciendo la carga cognitiva.
       </div>
     </div>
 
