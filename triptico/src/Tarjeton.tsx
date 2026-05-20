@@ -72,7 +72,7 @@ const Bullet = ({
 
 const CaraTrasera = () => (
   <div
-    className="w-[5.5in] h-[8.5in] bg-gradient-to-br from-slate-50 via-[#9095DD]/8 to-[#768BD6]/8
+    className="w-[5.5in] h-[9.2in] bg-gradient-to-br from-slate-50 via-[#9095DD]/8 to-[#768BD6]/8
                flex flex-col p-5 gap-3 shrink-0"
   >
     {/* Header trasero */}
@@ -236,7 +236,7 @@ const CaraTrasera = () => (
 
 const CaraFrontal = () => (
   <div
-    className="w-[5.5in] h-[8.5in] bg-white border-l border-[#9095DD]/25
+    className="w-[5.5in] h-[9.2in] bg-white border-l border-[#9095DD]/25
                flex flex-col items-center px-6 py-5 shrink-0 relative overflow-hidden"
   >
     {/* Decoración de fondo */}
@@ -345,7 +345,7 @@ export default function Tarjeton() {
 
       {/* Hoja Carta horizontal */}
       <div
-        className="print-page w-[11in] h-[8.5in] flex bg-white shadow-2xl mx-auto"
+        className="print-page w-[11in] h-[9.2in] flex bg-white shadow-2xl mx-auto"
         style={{ fontFamily: "system-ui, Segoe UI, Roboto, sans-serif" }}
       >
         <CaraTrasera />
