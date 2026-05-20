@@ -16,6 +16,8 @@ import {
   Store,
   FlaskConical,
   Brain,
+  Atom,
+  Wrench,
 } from "lucide-react";
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
@@ -102,13 +104,20 @@ const CaraTrasera = () => (
           <span>
             <strong>Sistemas Core:</strong> <code>game_mode_manager</code> para
             control de estados. <code>lesson_registry</code> modular escalable a
-            mas lecciones (5 lecciones de química actualmente operativas).
+            mas lecciones de diferentes asignaturas (5 lecciones de química
+            actualmente operativas).
           </span>
         </Bullet>
         <Bullet icon={<Glasses size={10} />}>
           <span>
             <strong>UI 3D:</strong> Paneles flotantes renderizados en espacio
             mediante <em>SubViewport</em> y <em>ObjectMenuUI</em>.
+          </span>
+        </Bullet>
+        <Bullet icon={<Atom size={10} />}>
+          <span>
+            <strong>Modo Libre:</strong> Explora tabla periódica interactiva y
+            visualiza átomos de los elementos en <strong>3D</strong>.
           </span>
         </Bullet>
       </Card>
@@ -125,10 +134,28 @@ const CaraTrasera = () => (
             palma abierta), raycasting y <em>Laser Pull</em>.
           </span>
         </Bullet>
+        <Bullet icon={<Glasses size={10} />}>
+          <span>
+            <strong>Menú gestual:</strong> Apertura del menú principal con
+            gestos naturales para navegar opciones sin controles externos.
+          </span>
+        </Bullet>
         <Bullet icon={<Mic size={10} />}>
           <span>
-            <strong>Pipeline de Voz:</strong> Whisper STT (latencia &lt;10.0 s),
-            GPT-4o con contexto de lección y TTS.
+            <strong>Pipeline de Voz:</strong> Whisper STT, GPT-4o con contexto
+            de lección y TTS.
+          </span>
+        </Bullet>
+        <Bullet icon={<MessageSquare size={10} />}>
+          <span>
+            <strong>Consulta al tutor:</strong> El alumno puede preguntar por
+            voz o con atajos gestuales durante cada paso del experimento.
+          </span>
+        </Bullet>
+        <Bullet icon={<Wrench size={10} />}>
+          <span>
+            <strong>Modo Libre:</strong> Permite hablar con el tutor y utilizar
+            instrumentos de las lecciones fuera del flujo guiado.
           </span>
         </Bullet>
         <Bullet icon={<Bot size={10} />}>
@@ -155,7 +182,8 @@ const CaraTrasera = () => (
           <span>
             <strong>B2B:</strong> Licencias para instituciones educativas;
             elimina costos de reactivos, mantenimiento y equipamiento de
-            laboratorios físicos.
+            laboratorios físicos. Precio sugerido: <strong>$99 USD/año </strong>
+            por laboratorio (hasta 40 alumnos).
           </span>
         </Bullet>
         <Bullet icon={<MessageSquare size={10} />}>
