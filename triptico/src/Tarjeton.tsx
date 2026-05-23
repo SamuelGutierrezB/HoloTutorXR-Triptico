@@ -1,27 +1,6 @@
 import qrDocumentacion from "./assets/qr-documentacion.png";
 import qrItchio from "./assets/qr-itchio.png";
 import qrSidequest from "./assets/qrsidequest.png";
-import {
-  Glasses,
-  Bot,
-  TrendingUp,
-  ShieldCheck,
-  AlertTriangle,
-  Lightbulb,
-  Cpu,
-  Hand,
-  MessageSquare,
-  DollarSign,
-  CheckCircle2,
-  Code2,
-  Layers,
-  Mic,
-  Store,
-  FlaskConical,
-  Brain,
-  Atom,
-  Wrench,
-} from "lucide-react";
 
 // ─── QrCard y QrSheet ──────────────────────────────────────────────
 function QrCard({
@@ -64,9 +43,7 @@ function QrCard({
 }
 
 const QrSheet = () => (
-  <div
-    className="w-[5.5in] h-[9.25in] bg-gradient-to-br from-slate-50 via-[#9095DD]/8 to-[#768BD6]/8 flex flex-col p-5 gap-4 shrink-0"
-  >
+  <div className="w-[5.5in] h-[9.25in] bg-gradient-to-br from-slate-50 via-[#9095DD]/8 to-[#768BD6]/8 flex flex-col p-5 gap-4 shrink-0">
     <div className="flex-1 flex flex-col gap-3 min-h-0">
       <QrCard
         title="Documentacion"
